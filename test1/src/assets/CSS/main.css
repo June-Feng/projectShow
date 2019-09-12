@@ -1,0 +1,462 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 200ms;
+    -o-transition: background 200ms;
+    transition: background 200ms;
+    /* background-color: #80808041; */
+}
+
+body {
+    font-size: 14px;
+    color: #444;
+    background: rgb(223, 223, 223);
+    line-height: 1.7;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    display: block;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearf::after,
+.clearf::before {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.colh-1,
+.colh-2,
+.colh-3,
+.colh-4,
+.colh-5,
+.colh-6,
+.colh-7,
+.colh-8 {
+    display: block;
+    position: relative;
+    min-height: 1px;
+    float: left;
+}
+
+.col-1 {
+    width: 10%;
+}
+
+.col-2 {
+    width: 20%;
+}
+
+.col-3 {
+    width: 30%;
+}
+
+.col-4 {
+    width: 40%;
+}
+
+.col-5 {
+    width: 50%;
+}
+
+.col-6 {
+    width: 60%;
+}
+
+.col-7 {
+    width: 70%;
+}
+
+.col-8 {
+    width: 80%;
+}
+
+.colh-1 {
+    height: 10%;
+}
+
+.colh-2 {
+    height: 20%;
+}
+
+.colh-3 {
+    height: 30%;
+}
+
+.colh-4 {
+    height: 40%;
+}
+
+.colh-5 {
+    height: 50%;
+}
+
+.colh-6 {
+    height: 60%;
+}
+
+.colh-7 {
+    height: 70%;
+}
+
+.colh-8 {
+    height: 80%;
+}
+
+.main {
+    min-height: 85vh;
+}
+
+.top-nav {
+    background-color: #535353;
+}
+
+.top-nav .item {
+    display: inline-block;
+    padding: 6px 10px;
+    color: #bbbbbb;
+}
+
+.top-nav .item:hover {
+    color: #ffffff;
+}
+
+.header {
+    padding: 20px 0;
+}
+
+.header .logo {
+    font-size: 30px;
+}
+
+.header .search-bar {
+    border: 2px solid #aba7b6;
+    background: #aba7b6;
+}
+
+.header .search-bar input,
+.header .search-bar button {
+    float: left;
+    border: 0;
+    padding: 10px;
+    outline: 0;
+}
+
+.header .search-bar input {
+    width: 80%;
+}
+
+.header .search-bar input:focus {
+    -webkit-box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.header .search-bar button {
+    width: 20%;
+    background: #aba7b6;
+}
+
+.header .search-bar button:hover {
+    background: #bab4c5;
+}
+
+.header .cart {
+    text-align: center;
+}
+
+.header .cart a {
+    float: right;
+    padding: 10px;
+    background: #fff;
+    border: 2px solid #eee;
+    width: 80%;
+    color: #aba7b6;
+}
+
+.main-promote .info .avatar,
+.eval .advice .avatar {
+    width: 50px;
+    height: 50px;
+    background: #a7a1a3;
+    border-radius: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+.cat-promote .title,
+.container .title {
+    font-size: 22px;
+}
+
+.cat-promote .item,
+.collection .item {
+    padding: 5px;
+}
+
+.cat-promote .card,
+.collection .card {
+    height: 300px;
+    background: #b4b4b4;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 2px 2px #00000015;
+    box-shadow: 0 2px 2px #00000015;
+}
+
+.footer {
+    margin-top: 30px;
+    padding: 30px 0;
+    text-align: center;
+    color: #818080;
+    background: #3b3b3b;
+}
+
+.footer a {
+    color: #818080;
+}
+
+.log,
+.reg {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background: #00000031;
+    position: fixed;
+    z-index: 8;
+}
+
+.log .login,
+.reg .register {
+    width: 300px;
+    height: 400px;
+    padding: 10px 12px;
+    margin: 0 auto;
+    background: #ffffff;
+    border: #535353;
+    border-radius: 3px;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    z-index: 10;
+}
+
+.reg .register {
+    height: 480px;
+}
+
+.login .title,
+.login .username,
+.login .password,
+.login .button,
+.login .error {
+    width: 100%;
+    height: 44px;
+    padding: 2px 14px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #444;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.register .title,
+.register .username,
+.register .email,
+.register .telephone,
+.register .password,
+.register .error {
+    width: 100%;
+    height: 44px;
+    padding: 2px 14px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #444;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.login .button,
+.register .button {
+    width: 98%;
+    height: 45px;
+    margin: 40px auto 15px;
+}
+
+.register .button {
+    width: 92%;
+    margin: 20px auto 15px;
+}
+
+.login .button button,
+.register .button button {
+    width: 100%;
+    height: 40px;
+    background: #5c5c5c;
+    color: #ffffff;
+    border: 0;
+    border-radius: 4px;
+}
+
+.login .title,
+.register .title {
+    margin-top: 30px;
+    height: 80px;
+    padding: 20px 14px;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+}
+
+.register .title {
+    height: auto;
+    padding: 10px 14px;
+}
+
+.login input,
+.register input {
+    width: 100%;
+    height: 38px;
+    padding: 4px;
+    border: 1px solid #8f8f8f73;
+    border-radius: 4px;
+    outline: 0;
+}
+
+.login input:focus,
+.register input:focus {
+    -webkit-box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, .1);
+    box-shadow: inset 0 0 2px 1px rgba(0, 0, 0, 0.1);
+}
+
+.login .close a,
+.register .close a {
+    font-size: 10px;
+    position: absolute;
+    right: 16px;
+    top: 16px;
+    line-height: 6px;
+    text-align: center;
+    color: #444;
+}
+
+.login .close a:hover,
+.register .close a:hover {
+    color: rgb(204, 202, 202);
+}
+
+.login .button button:hover,
+.register .button button:hover {
+    background: rgb(110, 110, 110);
+}
+
+.header .keyW {
+    width: 101%;
+    float: left;
+    position: absolute;
+    top: 36px;
+    left: -2px;
+    display: none;
+    background: #ffffff;
+    border: 1px solid #aba7b6;
+}
+
+.header .keyW span {
+    padding: 0px 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.header input:focus~.keyW {
+    display: block;
+    font-size: 14px;
+    padding: 5px 0;
+}
+
+.concent .card .img img,
+.collection .card .img img {
+    width: 100%;
+}
+
+.concent .card .name,
+.collection .card .name {
+    width: 100%;
+    padding: 0 12px;
+}
+
+.concent .card .name h4,
+.collection .card .name h4,
+.concent .card .name span,
+.collection .card .name span {
+    margin: 0 0 5px;
+    color: #3b3b3b;
+}
+
+.concent .card .name .about,
+.collection .card .name .about {
+    width: 100%;
+}
+
+.concent .card .name .about .price,
+.collection .card .name .about .price {
+    float: left;
+}
+
+.concent .card .name .about .sales,
+.collection .card .name .about .sales {
+    float: right;
+}
+
+.login .logError,
+.register .regError {
+    width: 248px;
+    height: 30px;
+    margin: 10px 14px;
+    padding: 4px;
+    text-align: center;
+    /* border: 1px solid #8a3a3a; */
+    border-radius: 4px;
+    color: #ce1c1c;
+    background-color: rgb(243, 177, 177);
+    display: none;
+}
+
+@import url("http://unpkg.com/element-ui@2.12.0/lib/theme-chalk/index.css");
+a {
+    color: #000000;
+}
+
+.aboutUserAccount {
+    height: 600px;
+    background-image: url(../img/loginbackground.png);
+    background-size: 100%;
+}
+
+.aboutUserAccount .container {
+    height: 100%;
+}
+
+.loginbox .loginTitle,
+.regbox .regTitle {
+    padding-left: 28px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}

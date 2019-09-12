@@ -1,0 +1,36 @@
+.caption {
+    width: 96%;
+    padding: 0px 2%;
+    font-size: 50px;
+}
+
+.left,
+.right,
+.box2,
+.conctent {
+    width: 96%;
+    overflow: hidden;
+}
+
+label {
+    display: block;
+    color: #ffffff;
+    text-align: right;
+    /* position: relative;
+    top: 2%;
+    left: 90%; */
+}
+
+.menu {
+    display: none;
+}
+
+
+/* #checkbox:checked~ul {
+     display: block;
+} */
+
+menu a:active,
+label {
+    color: #c2c2c28a;
+}

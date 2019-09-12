@@ -1,0 +1,145 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: background 200ms;
+    -o-transition: background 200ms;
+    transition: background 200ms;
+    /* background-color: #80808041; */
+}
+
+body {
+    background: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+.workShow,
+.aboutMe {
+    margin-bottom: 30px;
+}
+
+.box {
+    border-bottom: 1px solid #cbd8f0;
+    padding: 10px;
+    position: sticky;
+    top: 0px;
+}
+
+.talkToMe {
+    line-height: 35px;
+    padding-right: 10px;
+}
+
+#cont {
+    float: right;
+    z-index: 2;
+    position: relative;
+    left: 20px;
+    /* display: none; */
+}
+
+#cont img {
+    width: 120px;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.title {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px 0;
+    line-height: 40px;
+}
+
+.title::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 5px;
+    height: 25px;
+    background: #8d8d8d;
+    margin-right: 10px;
+}
+
+.icon {
+    padding-left: 20px;
+}
+
+.proIcon {
+    height: 400px;
+    min-width: 229px;
+}
+
+.gap {
+    height: 400px;
+    min-width: 35px;
+}
+
+.proIcon {
+    border: 1px solid #e6eeff;
+    border-radius: 6px;
+    padding: 14px 0;
+    overflow: hidden;
+}
+
+.proIcon:hover {
+    -webkit-box-shadow: 0 0 8px #d7dce4;
+    box-shadow: 0 0 8px #d7dce4;
+}
+
+.proIcon img {
+    display: block;
+    margin: 80px auto;
+    height: 70px;
+}
+
+.image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-left: 50%;
+    position: relative;
+    left: -50px;
+}
+
+.image img {
+    width: 100px;
+    display: block;
+}
+
+p {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.text {
+    height: 99px;
+    padding: 0 14px;
+}
+
+.enter {
+    height: 63px;
+    width: 100%;
+    border-top: 1px solid #e6eeff;
+}
+
+.enter:hover {
+    background: #688ecc;
+    color: #ffffff;
+}
+
+.foot {
+    background: #e2e7ee;
+    line-height: 35px;
+    text-align: center;
+}
+
+.foot a {
+    color: #6b6b6b;
+}

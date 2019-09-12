@@ -1,0 +1,134 @@
+.intro {
+    margin: 20px;
+}
+
+.intro .img {
+    padding: 8px;
+    margin: 5px;
+}
+
+.intro .img img {
+    width: 98%;
+}
+
+.intro .buy {
+    padding: 8px 20px;
+    font-size: 20px;
+}
+
+.intro .buy .price,
+.intro .buy .goodTitle,
+.intro .buy .button,
+.intro .buy .chat,
+.intro .buy .style,
+.intro .buy .size,
+.intro .buy .goodsNum {
+    height: 80px;
+    font-size: 40px;
+}
+
+.intro .buy .chat,
+.intro .buy .style,
+.intro .buy .size,
+.intro .buy .goodsNum {
+    height: 50px;
+    font-size: 14px;
+}
+
+.intro .buy button {
+    height: 50px;
+    width: 45%;
+    font-size: 22px;
+}
+
+.intro .buy .button {
+    padding: 0 40px;
+}
+
+.disc {
+    border: 1px solid #b1b1b1;
+    background-color: #f0f0f0;
+}
+
+.tabBar {
+    background-color: #cacaca;
+}
+
+.tabBar ul {
+    margin-top: 0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 1px solid #b1b1b1;
+}
+
+.tabBar li {
+    float: left;
+    width: 20%;
+    height: 50px;
+    list-style: none;
+    border-right: 1px solid #b1b1b1;
+    border-radius: 5px;
+}
+
+.tabBar a {
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+    color: #616161;
+    line-height: 50px;
+    text-align: center;
+}
+
+.disc .goodsDisc,
+.disc .param,
+.disc .show,
+.other .title,
+.other .collection,
+.eval .advice {
+    padding: 20px;
+}
+
+.other .collection .card {
+    margin-bottom: 10px;
+}
+
+.eval {
+    display: none;
+}
+
+.sele {
+    background-color: #f1f1f1;
+}
+
+.advice {
+    font-size: 17px;
+}
+
+.advice p {
+    float: left;
+    width: 94%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.advice .advInfo {
+    float: left;
+    width: 90%;
+    height: 30px;
+}
+
+.advice .advInfo .name {
+    float: left;
+}
+
+.advice .advInfo .date {
+    float: right;
+}
+
+.disc .param td {
+    display: inline-block;
+    line-height: 40px;
+    padding-left: 8px;
+    width: 150px;
+    height: 40px;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>电商街-我的购物车</title>
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../css/cart.css">
+</head>
+
+<body>
+    <div class="app">
+        <login></login>
+        <register></register>
+        <div class="main">
+            <topnav></topnav>
+            <tophead></tophead>
+            <div class="container clearf">
+                <div class="title">我的购物车</div>
+                <div class="myCart">
+                    <div class="wanna clearf">
+                        <div class="goodPic col-1">
+                            <a href="good.html"><img src="../img/cartgood.png"></a>
+                        </div>
+                        <div class="name col-4">
+                            <span>商品名称</span>
+                        </div>
+                        <div class="type col-2">
+                            <span>类型：类型1</span>
+                            <span>尺寸：XL</span>
+                        </div>
+                        <div class="goodPrice col-1"><span class="price">￥1000</span></div>
+                        <div class="goodNum col-1">
+                            <button class="less" @click="lessGoodNum()">-</button>
+                            <div class="count">{{cartGoodNum}}</div>
+                            <button class="add" @click="addGoodNum()">+</button>
+                        </div>
+                        <div class="control col-1">
+
+                            <a href="javascript:void();" class="delete">删除</a>
+                            <a href="javascript:void();" class="moveCollect">移入收藏夹</a>
+
+                        </div>
+                    </div>
+                    <div class="wanna clearf">
+                        <div class="goodPic col-1">
+                            <a href="good.html"><img src="../img/cartgood.png"></a>
+                        </div>
+                        <div class="name col-4">
+                            <span>商品名称</span>
+                        </div>
+                        <div class="type col-2">
+                            <span>类型：类型1</span>
+                            <span>尺寸：XL</span>
+                        </div>
+                        <div class="goodPrice col-1"><span class="price">￥1000</span></div>
+                        <div class="goodNum col-1">
+                            <button class="less" @click="lessGoodNum()">-</button>
+                            <div class="count">{{cartGoodNum}}</div>
+                            <button class="add" @click="addGoodNum()">+</button>
+                        </div>
+                        <div class="control col-1">
+
+                            <a href="javascript:void();" class="delete">删除</a>
+                            <a href="javascript:void();" class="moveCollect">移入收藏夹</a>
+
+                        </div>
+                    </div>
+
+                    <div class="wanna clearf">
+                        <div class="goodPic col-1">
+                            <a href="good.html"><img src="../img/cartgood.png"></a>
+                        </div>
+                        <div class="name col-4">
+                            <span>商品名称</span>
+                        </div>
+                        <div class="type col-2">
+                            <span>类型：类型1</span>
+                            <span>尺寸：XL</span>
+                        </div>
+                        <div class="goodPrice col-1"><span class="price">￥1000</span></div>
+                        <div class="goodNum col-1">
+                            <button class="less" @click="lessGoodNum()">-</button>
+                            <div class="count">{{cartGoodNum}}</div>
+                            <button class="add" @click="addGoodNum()">+</button>
+                        </div>
+                        <div class="control col-1">
+
+                            <a href="javascript:void();" class="delete">删除</a>
+                            <a href="javascript:void();" class="moveCollect">移入收藏夹</a>
+
+                        </div>
+                    </div>
+
+                    <div class="wanna clearf">
+                        <div class="goodPic col-1">
+                            <a href="good.html"><img src="../img/cartgood.png"></a>
+                        </div>
+                        <div class="name col-4">
+                            <span>商品名称</span>
+                        </div>
+                        <div class="type col-2">
+                            <span>类型：类型1</span>
+                            <span>尺寸：XL</span>
+                        </div>
+                        <div class="goodPrice col-1"><span class="price">￥1000</span></div>
+                        <div class="goodNum col-1">
+                            <button class="less" @click="lessGoodNum()">-</button>
+                            <div class="count">{{cartGoodNum}}</div>
+                            <button class="add" @click="addGoodNum()">+</button>
+                        </div>
+                        <div class="control col-1">
+
+                            <a href="javascript:void();" class="delete">删除</a>
+                            <a href="javascript:void();" class="moveCollect">移入收藏夹</a>
+
+                        </div>
+                    </div>
+
+                    <div class="wanna clearf">
+                        <div class="goodPic col-1">
+                            <a href="good.html"><img src="../img/cartgood.png"></a>
+                        </div>
+                        <div class="name col-4">
+                            <span>商品名称</span>
+                        </div>
+                        <div class="type col-2">
+                            <span>类型：类型1</span>
+                            <span>尺寸：XL</span>
+                        </div>
+                        <div class="goodPrice col-1"><span class="price">￥1000</span></div>
+                        <div class="goodNum col-1">
+                            <button class="less" @click="lessGoodNum()">-</button>
+                            <div class="count">{{cartGoodNum}}</div>
+                            <button class="add" @click="addGoodNum()">+</button>
+                        </div>
+                        <div class="control col-1">
+
+                            <a href="javascript:void();" class="delete">删除</a>
+                            <a href="javascript:void();" class="moveCollect">移入收藏夹</a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <bottomfoot></bottomfoot>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="../lib/vue.js"></script>
+    <script src="../js/shop.js"></script>
+</body>
+
+</html>

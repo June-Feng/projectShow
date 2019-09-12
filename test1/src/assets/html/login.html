@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>电商街-登录</title>
+    <link rel="stylesheet" href="https://unpkg.com/element-ui@2.12.0/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="../CSS/main.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <script src="https://unpkg.com/element-ui@2.12.0/lib/index.js"></script>
+
+    <div id="app" class="app">
+        <div class="main">
+            <div class="top-nav">
+                <div class="container clearf">
+                    <div class="fl">
+                        <a class="item" href="shop.html">首页</a></div>
+                    <!-- <div class="fr">
+                        <a class="item" href="javascript:void();">登录</a>
+                        <a class="item" href="#">注册</a>
+                        <a class="item" href="collect.html">收藏夹</a></div> -->
+                </div>
+            </div>
+            <div class="header">
+                <div class="container clearf">
+                    <a href="shop.html">
+                        <div class="col-2 logo">logo</div>
+                    </a>
+
+                    <div class="col-8">
+                    </div>
+                </div>
+            </div>
+            <div class="aboutUserAccount">
+                <div class="container">
+                    <div class="loginbox">
+                        <div class="box">
+                            <div class="loginTitle">登录</div>
+                            <el-form :model="ruleForm" :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+                                <el-form-item label="用户名" prop="username">
+                                    <el-input placeholder="请输入用户名" v-model="ruleForm.username"></el-input>
+                                </el-form-item>
+                                <el-form-item label="密码" prop="password">
+                                    <el-input placeholder="请输入密码" v-model="ruleForm.password" show-password></el-input>
+                                </el-form-item>
+                                <el-form-item>
+                                    <el-button type="primary" @click="submitForm('ruleForm')">登录</el-button>
+                                    <a href="register.html">
+                                        <el-button>注册</el-button>
+                                    </a>
+                                </el-form-item>
+                            </el-form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/login.js"></script>
+
+</body>
+
+</html>

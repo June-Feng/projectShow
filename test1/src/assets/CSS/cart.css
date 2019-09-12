@@ -1,0 +1,52 @@
+/* * {
+    background-color: #88858559;
+} */
+
+.myCart .wanna {
+    margin-top: 10px;
+    padding: 0 6px;
+    background-color: #d1d0d0;
+    font: 14px;
+}
+
+.myCart .wanna .name,
+.myCart .wanna .type,
+.myCart .wanna .goodPrice,
+.myCart .wanna .goodNum,
+.myCart .wanna .control {
+    margin: auto 0;
+    padding-top: 10px;
+}
+
+.myCart .wanna span,
+.myCart .wanna a {
+    color: black;
+    padding: 3px 10px;
+    display: block;
+}
+
+.myCart .wanna .goodPic img {
+    margin-top: 6px;
+    width: 100%;
+}
+
+.myCart .wanna .type span {
+    font-size: 12px;
+    color: #8f8f8f;
+}
+
+.myCart .goodNum .count {
+    text-align: center;
+    padding: 5px;
+    display: inline-block;
+    width: 30px;
+}
+
+.myCart .goodNum button {
+    height: 30px;
+    width: 30px;
+}
+
+.error {
+    color: #c83a3a;
+}
