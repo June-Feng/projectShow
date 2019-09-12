@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>作品展示</title>
+    <link rel="stylesheet" href="src/assets/css/main.css">
+    <link rel="stylesheet" href="src/assets/css/index.css">
+    <link rel="stylesheet" href="https://cdn.bootcss.com/normalize/8.0.1/normalize.min.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="main">
+            <div class="top container">
+                <div class="box container clearf">
+                    <div class="logo fl">june</div>
+                    <div class="talkToMe fr"><a onmouseover="hover()" onmouseout="out()" href="javascript:void();">联系我</a>
+                    </div>
+                </div>
+                <div id="cont"><img src="src/assets/img/QRcode1.png" alt=""></div>
+                <script>
+                    var hover = function hover() {
+                        var cont = document.getElementById("cont");
+                        cont.style.display = "block";
+                    }
+                    var out = function out() {
+                        var cont = document.getElementById("cont");
+                        cont.style.display = "none";
+                    }
+                </script>
+            </div>
+            <div class="aboutMe container">
+                <div class="title">关于我</div>
+                <div class="introduce">
+                    <div class="image"><img src="src/assets/img/headImage.png"></div>
+                    <p>冯少君</p>
+                    <p>深圳信息职业技术学院 信息安全技术专业</p>
+                    <p>深圳大学 计算机科学与技术专业在读</p>
+                    <p>曾在中软国际公司任职测试工程师，为腾讯科技公司服务</p>
+                    <p>熟悉html5/CSS/javascript/C++等语言</p>
+                    <p>熟悉JSON、Jquery、vue等前端框架</p>
+                    <p>有参与项目的经历，具有组件开发思维</p>
+                    <p>熟悉git等版本控制工具</p>
+                </div>
+            </div>
+            <div class="workShow container">
+                <div class="title">作品展示</div>
+                <div class=" icon container clearf">
+                    <div class="proIcon fl col-2">
+                        <div class="img"><img src="src/assets/img/Blog.png" alt=""></div>
+                        <div class="text">
+                            <p>blog</p>
+                            <p>blog页面实战，采用了响应式布局，可在移动端查看</p>
+                        </div>
+                        <a class="clearf" href="src/assets/html/blog.html" target="_blank">
+                            <div class="enter clearf">
+                                <p>我要瞧瞧</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gap fl"></div>
+                    <div class="proIcon fl col-2">
+                        <div class="img"><img src="src/assets/img/index(1).png" alt=""></div>
+                        <div class="text">
+                            <p>菜鸟首页</p>
+                            <p>菜鸟首页仿写，主要是练习div布局</p>
+                        </div>
+                        <a class="clearf" href="src/assets/html/runoobIndex.html" target="_blank">
+                            <div class="enter clearf">
+                                <p>我要瞧瞧</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gap fl"></div>
+                    <div class="proIcon fl col-2">
+                        <div class="img"><img src="src/assets/img/shop.png" alt=""></div>
+                        <div class="text">
+                            <p>电商项目</p>
+                            <p>大型电商项目实战，拥有首页、登录、注册、购物车等多个页面</p>
+                        </div>
+                        <a class="clearf" href="src/assets/html/shop.html" target="_blank">
+                            <div class="enter clearf">
+                                <p>我要瞧瞧</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="gap fl"></div>
+                    <div class="proIcon fl col-2">
+                        <div class="img"><img src="src/assets/img/wait.png" alt=""></div>
+                        <div class="text">
+                            <p>更多</p>
+                            <p>更多精彩作品，敬请期待</p>
+                        </div>
+                        <div class="enter clearf">
+                            <p>我要瞧瞧</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot">
+                <div class="container"><a href="index.html">本页面解释权归june所有</a></div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
